@@ -1,8 +1,6 @@
-# Create a New Extension
-
 > 源文档 [Workflows/Create a New Extension](https://docs.plasmo.com/workflows)
 
-## 创建一个新的扩展
+# 创建一个新的扩展
 
 > 📢 **注意**：如果要在源码模块重使用 `src` 目录，请参考这个[指引](https://docs.plasmo.com/customization/src)
 
@@ -28,7 +26,7 @@ npm create plasmo "My Awesome Extension"
 
 > ⭐ **注意**： 您可以使用 `pnpm i -g plasmo` 将 plasmo CLI 作为全局命令安装 (可用您最喜欢的包管理器替换pnpm)
 
-### 特定的入口文件
+## 特定的入口文件
 
 默认项目只包含一个 (popup)\[https://docs.plasmo.com/browser-extension#adding-a-popup-page] 入口文件。但是，您可以通过使用 entry 参数和逗号分隔的入口文件列表来自定义入口，以包含在您的初始项目中。
 
@@ -46,7 +44,7 @@ npm create plasmo -- --entry=options,newtab,contents/inline
 
 > ⚠️ **注意**: `npm` 不会将参数传递给它的子命令。因此，在指定 plasmo 的参数和标志之前，您必须提供一个 -- 来。
 
-### 带示例的模板
+## 带示例的模板
 
 更强大的是，plasmo 可以基于我们[示例](https://github.com/PlasmoHQ/examples/)中的项目创建一个新项目。选择一个您想使用的示例，并在运行 `create plasmo` 命令时将其用为标志：
 
@@ -58,7 +56,7 @@ npm create plasmo -- --with-env
 
 以上将使用您指定的 [with-env](https://github.com/PlasmoHQ/examples/tree/main/with-env) 示例生成一个项目。
 
-### 加载扩展
+## 加载扩展
 
 我们计划在未来将其自动化，但目前，这些是您在 Chrome 中加载扩展程序所需采取的步骤。
 

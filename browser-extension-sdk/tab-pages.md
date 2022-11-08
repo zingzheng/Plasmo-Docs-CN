@@ -1,8 +1,6 @@
-# Tab Pages
-
 > 源文档 [Browser Extension SDK/Tab Pages](https://docs.plasmo.com/browser-extension/tab-pages)
 
-## Tab Pages
+# Tab Pages
 
 > 译：暂称为标签页 或者 Tab页
 

@@ -1,8 +1,6 @@
-# Automated Submission
-
 > 源文档 [Workflows/Automated Submission](https://docs.plasmo.com/workflows/submit)
 
-## 提交扩展
+# 提交扩展
 
 Plasmo 框架附带一个方便的 GitHub Action，称为 [Browser Platform Publish](http://bpp.browser.market/) 或 BPP。此服务将自动将您的扩展发布到所有受支持的浏览器扩展市场。它默认需要手动触发运行，但更改其配置可以使其在每次推送时运行。
 

@@ -1,10 +1,8 @@
-# FAQ
-
 > 源文档 [Workflows/FAQ](https://docs.plasmo.com/workflows/faq)
 
-## 工作流程常见问题
+# 工作流程常见问题
 
-### 如何把 Plasmo 升级到最新版本
+## 如何把 Plasmo 升级到最新版本
 
 如果您使用 pnpm， 执行：
 
@@ -16,11 +14,11 @@ pnpm up -L plasmo
 
 或者，您可以通过升级 package.json 中的版本号， 然后运行 install 命令来手动固定 Plasmo 的版本。
 
-### 如果出现报错怎么办？
+## 如果出现报错怎么办？
 
 请使用 --verbose 标志运行 plasmo 并将输出粘贴到[错误报告](https://docs.plasmo.com/bug)的日志部分。这将帮助我们以100倍的速度对问题进行定位 🙏。
 
-### 官方支持的浏览器是什么？
+## 官方支持的浏览器是什么？
 
 官方支持的目标是：
 
