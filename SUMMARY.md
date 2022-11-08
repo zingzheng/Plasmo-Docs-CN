@@ -16,3 +16,4 @@
 * [Extension Pages](browser-extension-sdk/extension-pages.md)
 * [Tab Pages](browser-extension-sdk/tab-pages.md)
 * [Content Scripts](browser-extension-sdk/content-scripts.md)
+* [Content Scripts UI](browser-extension-sdk/content-scripts-ui.md)
